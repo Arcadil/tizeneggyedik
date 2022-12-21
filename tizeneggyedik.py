@@ -16,7 +16,7 @@ with open("films.txt", "r", encoding="UTF-8") as forrasfajl:
 
 
 
-for k in range(len(adatok)-1):
+for k in range(len(adatok)):
     if adatok[k].rendezo == "Christopher Nolan":
         print(adatok[k].cim)
 
@@ -25,6 +25,6 @@ for a in adatok:
     if a.rendezo == "Christopher Nolan":
         print(a.cim)
 '''
-for i in range(len(adatok)-1):
+for i in range(len(adatok)):
     if adatok[i].mikor > 1999:
         print(adatok[i].cim)
