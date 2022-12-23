@@ -28,3 +28,4 @@ for a in adatok:
 for i in range(len(adatok)-1):
     if adatok[i].mikor > 1999:
         print(adatok[i].cim)
+
